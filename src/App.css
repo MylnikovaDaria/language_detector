@@ -1,0 +1,48 @@
+.App {
+  text-align: center;
+  background-color: #f1f3f4;
+}
+
+.center {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+          -ms-flex-wrap: wrap;
+              flex-wrap: wrap;
+  margin-top: 50px;
+}
+
+.div {
+  width: 40%;
+  background-color: #ccedf0;
+  margin: 2%;
+
+}
+
+.makeStyles-root-38 {
+  background: url(bg.jpg) no-repeat top center, #ffffff;
+  background-size: cover;
+}
+
+.main {
+  padding-top: 20px;
+}
+.MuiTypography-root {
+  display:-webkit-box;
+  display:-ms-flexbox;
+  display:flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
